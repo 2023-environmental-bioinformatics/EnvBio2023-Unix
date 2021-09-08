@@ -40,6 +40,6 @@
 | `sort`  | sort file   | `sort` *file*    |
 | `uniq`  | display unique lines   | `uniq` *file*    |
 | `cut`  | break files horizontally   | `cut -d` *delimiter* `-f` *number* file    |
-| `paste`  | combine files side by side   | `paste` file1 file2    |
-| `wc`  | word count   | `wc` file    |
+| `paste`  | combine files side by side   | `paste` *file1* *file2*    |
+| `wc`  | word count   | `wc` *file*    |
 
