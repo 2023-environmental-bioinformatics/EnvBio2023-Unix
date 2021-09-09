@@ -1,5 +1,3 @@
-# EnvBio2021-Unix
-
 ## List of commands
 
 
