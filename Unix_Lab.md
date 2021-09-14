@@ -157,7 +157,7 @@ Open a new **local** terminal
 ```bash
 scp ~/Downloads/Griffin.fa mpachiadaki@poseidon.whoi.edu:/vortexfs1/omics/env-bio/users/mpachiadaki/sequences
 ```
-Now transfer the Unicorn.fa 
+>Now transfer the Unicorn.fa 
 
 You will work with these two files for you homework
 
