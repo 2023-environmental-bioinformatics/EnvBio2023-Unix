@@ -311,7 +311,7 @@ Navigate to `data/`. Let's pretend we wanted to retrieve the 25th value from `li
 ```bash	
 for file in lion.out secret.out
 do
-	head -n 25 $file | tail -n1
+	head -n 25 ${file} | tail -n1
 done 
 ```
 > What if we wanted to save this out to a file? Modify this to create a file that has the output. This can be done in more than one way. 
@@ -326,10 +326,10 @@ If we now type:
 
 ```bash
 echo file #prints the name file
-echo $file #prints the value of file
+echo ${file} #prints the value of file
 ```
 
-It will print the value of the variable `$file`. 
+It will print the value of the variable `${file}`. 
 
 Variables are powerful because we can easily manipulate them to do things like find and replace values. Let's make a variable called `santa` and assign it the value `hohoho`. 
 ```bash
