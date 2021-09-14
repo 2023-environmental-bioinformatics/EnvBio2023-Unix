@@ -179,7 +179,9 @@ A note on usage: When the shell sees a wildcard, it expands the wildcard to crea
  Navigate  to `unix-folders-master/measurements/`. This folder contains a bunch of different measurement files. Use `less` to take a look at one of them. 
 
 > Use `*` to print all the measurements that *end in* the number 5.
+> 
 > Use `*` to print all the measurements that *contain* the number 5. 
+> 
 > Use `*` to print all the measurements whose number *starts with* the number 5. 
 #### Regular expressions
 
