@@ -74,16 +74,21 @@ This is a nice example of how [file permissions](http://linuxcommand.org/lc3_lts
 ### Getting ready!
 Now, if for some reason you have moved away, navigate back to your class user directory. Use `ls` to check the contents of the folder. Are there any files or folders?
 
-Get the class material from https://github.com/environmental-bioinformatics-master/unix-folders/archive/master.zip
+Get the class material from https://github.com/environmental-bioinformatics-master/unix-folders/archive/master.zip using the `wget` command:
+```
+wget https://github.com/environmental-bioinformatics-master/unix-folders/archive/master.zip
+```
 
-
-And unzip it. Unlike last class where you had the option of unzipping `master.zip` through your computer's GUI file navigator (`Finder` or the like), on the HPC you DO NOT have access to any sort of GUI and you must do everything via the `CLI`. 
-
-Now, navigate into the newly created folder `unix-folders-master/`. 
-
+Check the contents of your folder and unzip the file. Unlike your local computer where you have the option of unzipping files through your computer's GUI file navigator (`Finder` or the like), on the HPC you DO NOT have access to any sort of GUI and you must do everything via the `CLI`. You can use the unzip command:
+```
+unzip master.zip
+```
+ 
 >How can you tell if a listing is a folder? 
 
 ### Working with files and directories
+Now, navigate into the newly created folder `unix-folders-master/`.
+
 Run `ls -F`. How many directories are there in this level? 
 
 
@@ -99,18 +104,21 @@ Move into the directory `observations` and let's create a file. There are (unsur
 
 To create a new text file simply type `nano [name of file]`, for example:
 ```bash
-nano 2021-observation.txt
+nano 2023-observation.txt
 ```
- This will create a new file called `2021-observation.txt` and you should be automatically be entered into the nano environment. Add some text to the file. And then press `ctrl+O`. This will write the text to the output file. Once you are satisfied you can press `ctrl+X` to exit. Note that the bottom of the nano window lists other `ctrl` commands that you might want to use with the program. 
+ This will create a new file called `2023-observation.txt` and you should be automatically be entered into the nano environment. Add some text to the file. And then press `ctrl+O`. This will write the text to the output file. Once you are satisfied you can press `ctrl+X` to exit. Note that the bottom of the nano window lists other `ctrl` commands that you might want to use with the program. 
 
-> We just made a file with nano. Now investigate the command `touch`. Try typing `touch 2021-observation.txt`. What happened? How is it different from nano? Try looking at its size. 
+> We just made a file with nano. Now investigate the command `touch`. Try typing `touch 2023-observation_v2.txt`. What happened? How is it different from nano? Try looking at its size. 
 
 >> **Question for thought:** If you make a text file does it need to end in `.txt`?
 
 #### Looking at files (without editing them)
-Often we want to get a quick look at the contents of a file without potentially accidentally modifying it. For that, the command `less` is quite useful. Try typing `less 2021-observation.txt`. This should bring you into an interface where you can read and scroll but cannot edit the document. Type `q` to exit. Take a look at both files in this directory. 
+Often we want to get a quick look at the contents of a file without potentially accidentally modifying it. For that, the command `less` is quite useful. Try typing `less 2023-observation.txt`. This should bring you into an interface where you can read and scroll but cannot edit the document. Type `q` to exit. Take a look at both files in this directory. 
 
-Another convenient way to examine the content of a file is to print it to the screen or print it to `stdout` or Standard Output. The program `cat` or concatenate will print the entire contents of a file to the screen. Try it out by typing cat `2021-observations.txt`. 
+Another convenient way to examine the content of a file is to print it to the screen or print it to `stdout` or Standard Output. The program `cat` or concatenate will print the entire contents of a file to the screen. Try it out by typing:
+```
+cat `2023-observations.txt`. 
+```
 >How is this different than less? 
 
 #### Moving and renaming
