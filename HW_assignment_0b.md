@@ -4,7 +4,7 @@
 
 For this homework you will work directly in poseidon. If you still doesn't have access to poseidon, you can work in your local device. The requested files (containing the answers) need to be created by the end of the 19th of September (11:59pm EDT).
 
-You will be working with nucleotide sequences in the [fasta](https://en.wikipedia.org/wiki/FASTA_format)  files `Griffin.fa` and `Unicorn.fa` which you can find at https://github.com/2023-environmental-bioinformatics/EnvBio2023-Unix/tree/main/sequences. 
+You will be working with nucleotide sequences in the [fasta](https://en.wikipedia.org/wiki/FASTA_format)  files `Griffin.fa` and `Unicorn.fa` which you can find at this [folder](https://github.com/2023-environmental-bioinformatics/EnvBio2023-Unix/tree/main/sequences). 
 
 Move the folder to your `unix-folders-master/` folder at poseidon. Take a look at both your files. Notice that for each sequence there is a header that starts with > and contains a unique identifier and other information. To store your results and the other requested files, please make a new directory inside `sequences` called `results`.
 
