@@ -271,7 +271,7 @@ You can see how these tools can be endlessly pieced together to do some really p
 
 > **Exercise Break:** Find a partner and try working through  these exercises.
 >- What is the difference in function between `sort` and `sort -n`. Try sorting one of the `.out` files to figure it out. 
->- Write a command that will identify the index value ( number in the first column) that has the largest value in the third column of `hiztory.out` . Return *only* the number in the first column and save the input to a file called big index. Hint: look at the man pages to find useful flags. 
+>- Write a command that will identify the index value ( number in the first column) that has the smallest value in the third column of `hiztory.out` . Return *only* the number in the first column and save the input to a file called small index. Hint: look at the man pages to find useful flags. 
 
 
 ### Automation with for loops
