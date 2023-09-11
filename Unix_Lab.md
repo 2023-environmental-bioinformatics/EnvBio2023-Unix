@@ -67,7 +67,7 @@ You should see a folder within `/vortexfs1/omics/env-bio/` called `users/`. This
 >Run `ls users`. What do you see? 
 
 Now, navigate into your user directory. This will be your computational space for the rest of the class. Only you  and the instructors have access to your directory. 
->Try navigating into someone else's directory. What happens? Why? Try `ls -l` to figure it out.
+>Try navigating into someone else's directory. What happens? Why? Try `ls -lh` to figure it out.
 
 This is a nice example of how [file permissions](http://linuxcommand.org/lc3_lts0090.php) can be used to structure access to a file system. The letters you see next to the file indicate the permissions (read, write, execute) that are given to different groups from left to right (owner, group, all). You can **actively** use file permissions to protect original data (we will come back to this later). We will also learn how to change those permissions later.
 
