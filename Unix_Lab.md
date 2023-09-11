@@ -5,11 +5,10 @@ Repo adapted from 2019 Environmental Bioinformatics prepared by @halexand
 
 ### Goals for today: 
 1. Open the terminal on our local machine
-2. Tested out some  commands for navigating around our file structures via the command line and figuring out who we are:
+2. Tested out some commands for navigating around our file structures via the command line and figuring out who we are:
         - `ls`: list files in current location
         - `pwd`: print working directory (where am I?)
         - `cd`: change directory (moving from place to place)
-        - `unzip`: unzip a file compressed with zip function
 3. Get an introduction to HPCs in general and the HPC we will be using for this class (`poseidon.whoi.edu`) 
 4. Discuss remote machine access (`ssh`) and log on to the HPC
 5. Review wildcards and regex
@@ -153,15 +152,14 @@ cp paper-final.txt paper-v3.txt
 > `cp` can also be used with directories. Try copying `extremely-old-drafts` to a new directory called `very-old-drafts`. What happened? Use `man` to figure out if there is a flag that can help you. 
 
 #### Transfering files and folders from your local computer to HPC
-Navigate back to `unix-folders-master/` and make a folder called `sequences`. Download the two sequence files (that you will find in slack) Griffin.fa and Unicorn.fa in your local computer. We are going to use the `scp` command to securely copy files and directories between remote hosts without starting an FTP session or logging into the remote systems explicitly. The scp command uses SSH to transfer data, so it requires a password or passphrase for authentication. Unlike rcp or FTP, scp encrypts both the file and any passwords exchanged so that anyone snooping on the network cannot view them. 
+Navigate back to `unix-folders-master/` and make a folder called `sequences`. We are going to use the `scp` command to securely copy files and directories between remote hosts without starting an FTP session or logging into the remote systems explicitly. The scp command uses SSH to transfer data, so it requires a password or passphrase for authentication. Unlike rcp or FTP, scp encrypts both the file and any passwords exchanged so that anyone snooping on the network cannot view them. 
+We are going to transfer the three sequence files from your `shell-lesson-data/exercise-data/creatures` (should be in your Desktop) to your newly constructed folder sequences
 
 Open a new **local** terminal  
 ```bash
-scp ~/Downloads/Griffin.fa mpachiadaki@poseidon.whoi.edu:/vortexfs1/omics/env-bio/users/mpachiadaki/sequences
+scp /Users/maria/Desktop/shell-lesson-data/exercise-data/creatures/*dat mpachiadaki@poseidon.whoi.edu:/vortexfs1/omics/env-bio/users/mpachiadaki/unix-folders-master/sequences
 ```
->Now transfer the Unicorn.fa 
-
-You will work with these two files for you homework
+To transfer a folder you use the flag -r `scp -r origin destination`
 
 #### Removing things
 **On the command line... removal is permanent.**
