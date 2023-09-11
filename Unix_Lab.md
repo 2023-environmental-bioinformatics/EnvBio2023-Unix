@@ -4,7 +4,6 @@
 Repo adapted from 2019 Environmental Bioinformatics prepared by @halexand
 
 ### Goals for today: 
-**Today we will:**
 1. Open the terminal on our local machine
 2. Tested out some  commands for navigating around our file structures via the command line and figuring out who we are:
         - `ls`: list files in current location
@@ -21,12 +20,12 @@ Repo adapted from 2019 Environmental Bioinformatics prepared by @halexand
 ## Logging on to the HPC
 For this class (and all subsequent classes) we will be using WHOI's HPC: `poseidon.whoi.edu`. This is a remote cluster of computers (it isn't really *that* remote.. it is in the basement of Clark). Nearly all command line systems (BASH etc.) have Secure Shell (`ssh`) natively installed. `ssh` is a cryptographic network protocol that allows you to provides a secure channel over an unsecured network. `ssh` can be used to log on to any number of platforms such as: remote computers (like a lab computer), computer clusters or high performance computers (HPCs), computers running in the cloud (e.g. AWS), etc. 
 
-Today we will be using `ssh` to logon to `poseidon.whoi.edu`. To do this you will need to know what your WHOI username is and be within WHOI's firewall either by connecting to the local network (e.g. `Arctic`) or by logging into WHOI's vpn. 
+Today we will be using `ssh` to log onto `poseidon.whoi.edu`. To do this you will need to know what your WHOI username is and be within WHOI's firewall either by connecting to the local network (e.g. `eduroam`) or by logging into WHOI's vpn. 
 
 Once you are logged on to WHOI's network you should be ready to `ssh`. In your terminal prompt type the following: 
 
 ```bash
-ssh username@poseidon.whoi.edu
+ssh username@poseidon-l1.whoi.edu
 ``` 
 If this is your first time logging onto the network you will see a prompt like the following: 
 
