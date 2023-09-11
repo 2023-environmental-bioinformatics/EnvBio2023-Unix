@@ -1,26 +1,21 @@
 # Unix 
-## Second class, 09/14/2021
+## Second class, 09/12/2021
 
 Repo adapted from 2019 Environmental Bioinformatics prepared by @halexand
 
-### Review
-**Last time we: **
-1. Opened the terminal on our local machine
-2. Talked about file / folder structures
-3. Tested out some  commands for navigating around our file structures via the command line and figuring out who we are:
+### Goals for today: 
+**Today we will:**
+1. Open the terminal on our local machine
+2. Tested out some  commands for navigating around our file structures via the command line and figuring out who we are:
         - `ls`: list files in current location
         - `pwd`: print working directory (where am I?)
         - `cd`: change directory (moving from place to place)
         - `unzip`: unzip a file compressed with zip function
-
-### Goals for today: 
-**Today we will:**
-1. Get an introduction to HPCs in general and the HPC we will be using for this class (`poseidon.whoi.edu`) 
-2. Discuss remote machine access (`ssh`) and log on to the HPC
-3. Review the commands we learned at the end of last class 
-4. Review wildcards and regex
-5. Review outputs & string commands together
-6. Review scripts
+3. Get an introduction to HPCs in general and the HPC we will be using for this class (`poseidon.whoi.edu`) 
+4. Discuss remote machine access (`ssh`) and log on to the HPC
+5. Review wildcards and regex
+6. Review outputs & string commands together
+7. Review scripts
 
 
 ## Logging on to the HPC
