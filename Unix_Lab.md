@@ -183,6 +183,7 @@ A note on usage: When the shell sees a wildcard, it expands the wildcard to crea
 > Use `*` to print all the measurements that *contain* the number 5. 
 > 
 > Use `*` to print all the measurements whose number *starts with* the number 5. 
+
 #### Regular expressions
 
 Regular expressions (abbreviated regex) are a concept used in many different programming languages for sophisticated pattern matching. When used well, they can be a very powerful tool to help you find and transform your data and files. 
@@ -210,19 +211,9 @@ And then there are positional commands:
 - `^` means that the position must be at the start of the line
 - `$` means it must appear at the end of the line
 
-> So, what is `^[Aa]naly.e` going to match? 
+> So, what is `^[Aa]naly.e` going to match? (Practice more using regular expresions using the grep command below)
 
-Now, let's use it like we were using the wildcard `*`.
-
-> **Exercises**
-> 
-> Write a command that uses regex to list all files that contain a 5 or a 6 somewhere within their name. 
-> 
-> Write a command that lists all files that lists all files that end in 3, 7 or 8. 
-> 
-> Write a command that returns all files that contain a 2 followed by a 1 or an 8. 
-
-These are just the basics. If you are wanting to learn more about regex I recommend checking out: 
+If you are wanting to learn more about regex we recommend checking out: 
 
 - https://regexone.com/ : a great interactive online learning tool. 
 - https://regexr.com/ : a useful regex tester 
@@ -407,7 +398,13 @@ You can also use `grep` regular expressions. To be safe it is good to append the
 grep -E "nose|ring" lear.txt 
 ```
 
->Write a command to find all occurrences of two capital letters followed by a space. 
+> **Exercises**
+> Inside your `unix-folders-master/measurements/` folder:
+> Write a command that uses regex to list all files that contain a 5 or a 6 somewhere within their name. 
+> 
+> Write a command that lists all files that end in 3, 7 or 8. 
+> 
+> Write a command that returns all files that contain a 2 followed by a 1 or an 8. 
 
 #### Find and replace? 
 Often times you will have a file that you want to fix so that it doesn't contain certain character or the like. One option for finding and replacing things within a text file is the command `sed`. 
