@@ -82,13 +82,13 @@ Check the contents of your folder and unzip the file. Unlike your local computer
 ```
 unzip master.zip
 ```
- 
->How can you tell if a listing is a folder? 
 
 ### Working with files and directories
 Now, navigate into the newly created folder `unix-folders-master/`.
 
-Run `ls -F`. How many directories are there in this level? 
+>How can you tell if a listing is a folder? 
+
+Run the command to list the contents of the folder (`ls` with modifications maybe?). How many directories are there in this level? 
 
 
 #### Creating directories
