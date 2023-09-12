@@ -269,7 +269,8 @@ wc -l *out|sort -n|head -n 1 > shortest.file
 ```
 You can see how these tools can be endlessly pieced together to do some really powerful manipulations!
 
-> **Exercise Break:** Find a partner and try working through  these exercises.
+> **Exercise Break:** Find a partner and try working through these exercises. You are working with the folder `unix-folders-master/data/`
+>- Retrieve the 25th value from `lion.out`
 >- What is the difference in function between `sort` and `sort -n`. Try sorting one of the `.out` files to figure it out. 
 >- Write a command that will identify the index value ( number in the first column) that has the smallest value in the third column of `hiztory.out` . Return *only* the number in the first column and save the input to a file called small index. Hint: look at the man pages to find useful flags. 
 
@@ -359,7 +360,7 @@ echo Hello $1!
 We can now execute this by typing: 
 
 ```bash
-bash hello.sh Elmo
+bash hello.sh *your name*
 ```
 What is the output of the above? 
 
