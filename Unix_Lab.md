@@ -295,7 +295,7 @@ done
 ```
 When the shell sees the word `for` it knows that a loop is coming. It 
 
-The `$` in `bash` is used to designate variables. We have already seen variables (e.g. `$HOME` and `$PATH`).  A variable name is a name whose value can be changed (rather than a text string or command that is static and cannot be changed. In a for loop the `item` in a list becomes a variable and changes as it moves through the loop. 
+The `$` in `bash` is used to designate variables. A variable name is a name whose value can be changed (rather than a text string or command that is static and cannot be changed. In a for loop the `item` in a list becomes a variable and changes as it moves through the loop. 
 
 Navigate to `data/`. Let's pretend we wanted to retrieve the 25th value from `lion.out` and `secret.out` data files. If we tried to do this with our wildcard command and pipes it wouldn't work very well. We can encode this in a for loop. 
 
