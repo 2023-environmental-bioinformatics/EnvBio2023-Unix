@@ -159,7 +159,7 @@ Open a new **local** terminal
 ```bash
 scp /Users/maria/Desktop/shell-lesson-data/exercise-data/creatures/*dat mpachiadaki@poseidon.whoi.edu:/vortexfs1/omics/env-bio/users/mpachiadaki/unix-folders-master/sequences
 ```
-To transfer a folder you use the flag -r `scp -r origin destination`
+To transfer a folder you use the flag -r `scp -r` *origin* *destination*
 
 #### Removing things
 **On the command line... removal is permanent.**
