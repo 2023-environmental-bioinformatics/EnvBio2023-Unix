@@ -20,7 +20,7 @@
 | `mkdir`  | make directory   | `mkdir` folder     |
 | `cp`   | copy files/directories from source to destination  | `cp` *source_file* *destination_file*  |
 | `mv`    | move files/directories  from source to destination| `mv` *source_file* *destination_file* |
-| `rm`    | remove (delete) file or folder; use with caution, cannot be recovered| `rm` *file*|
+| `rm`    | remove (delete) file or folder; **use with caution, cannot be recovered**| `rm` *file*|
 | `find`    | find a file/directory | `find . –name` *file*|
 
 
